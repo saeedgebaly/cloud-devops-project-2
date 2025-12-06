@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VSCode / editors
+.vscode/
+.idea/
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# mac / system
+.DS_Store
+
+# kube / kubeconfig
+.kube/
+kubeconfig
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs
+*.log
